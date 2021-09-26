@@ -44,8 +44,7 @@ ADD scripts /etc/scripts/
 ADD privoxy/scripts /opt/privoxy/
 
 COPY html/ /usr/share/transmission/web/
-COPY images/logo-soft.png /usr/share/transmission/web/images/
-COPY images/soft-dark-theme/* /usr/share/transmission/web/images/soft-dark-theme/
+COPY images/* /usr/share/transmission/web/style/transmission/images/
 ADD css/* /usr/share/transmission/web/style/transmission/
 
 ENV OPENVPN_USERNAME=**None** \
