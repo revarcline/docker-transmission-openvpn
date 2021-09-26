@@ -45,7 +45,7 @@ ADD privoxy/scripts /opt/privoxy/
 
 COPY html/ /usr/share/transmission/web/
 COPY images/* /usr/share/transmission/web/images/
-ADD css/* /usr/share/transmission/web/transmission/style/
+ADD css/* /usr/share/transmission/web/style/transmission/
 
 ENV OPENVPN_USERNAME=**None** \
     OPENVPN_PASSWORD=**None** \
