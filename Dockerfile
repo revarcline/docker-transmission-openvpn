@@ -44,8 +44,8 @@ ADD scripts /etc/scripts/
 ADD privoxy/scripts /opt/privoxy/
 
 COPY html/ /usr/share/transmission/web/
-COPY images/ /usr/share/transmission/web/images/
-ADD css/ /usr/share/transmission/web/transmission/style/
+COPY images/* /usr/share/transmission/web/images/
+ADD css/* /usr/share/transmission/web/transmission/style/
 
 ENV OPENVPN_USERNAME=**None** \
     OPENVPN_PASSWORD=**None** \
