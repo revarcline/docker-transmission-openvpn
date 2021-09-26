@@ -1,6 +1,12 @@
 # my edits
 I've gone ahead and added a modified verison of the stylesheet from [transmission-web-soft-theme](https://github.com/diesys/transmission-web-soft-theme) to the build. I'm currently deploying it with the `docker-compose` example below (building from this repo).
 
+To make it a systemd service, use the following script in whichever directory you've saved your `docker-compose.yml` file (from [here](https://techoverflow.net/2020/10/24/create-a-systemd-service-for-your-docker-compose-project-in-10-seconds/))
+
+```bash
+curl -fsSL https://techoverflow.net/scripts/create-docker-compose-service.sh | sudo bash /dev/stdin
+```
+
 
 # OpenVPN and Transmission with WebUI
 
