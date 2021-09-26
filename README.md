@@ -1,5 +1,5 @@
 # my edits
-I've gone ahead and added a modified verison of the stylesheet from [transmission-web-soft-theme](https://github.com/diesys/transmission-web-soft-theme) to the build, as well as set the `docker-compose.yml` file to build from this repo instead.
+I've gone ahead and added a modified verison of the stylesheet from [transmission-web-soft-theme](https://github.com/diesys/transmission-web-soft-theme) to the build. I'm currently deploying it with the `docker-compose` example below (building from this repo).
 
 
 # OpenVPN and Transmission with WebUI
