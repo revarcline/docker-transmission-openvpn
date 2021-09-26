@@ -1,3 +1,7 @@
+# my edits
+I've gone ahead and added a modified verison of the stylesheet from [transmission-web-soft-theme](https://github.com/diesys/transmission-web-soft-theme) to the build, as well as set the `docker-compose.yml` file to build from this repo instead.
+
+
 # OpenVPN and Transmission with WebUI
 
 [![CircleCI builds](https://img.shields.io/circleci/build/github/haugene/docker-transmission-openvpn)](https://circleci.com/gh/haugene/docker-transmission-openvpn)
@@ -76,7 +80,7 @@ services:
                 max-size: 10m
         ports:
             - '9091:9091'
-        image: haugene/transmission-openvpn
+        build: https://github.com/revarcline/docker-transmission-openvpn.git
 ```
 
 ## Please help out (about:maintenance)
