@@ -6,7 +6,10 @@ To make it a systemd service, use the following script in whichever directory yo
 ```bash
 curl -fsSL https://techoverflow.net/scripts/create-docker-compose-service.sh | sudo bash /dev/stdin
 ```
+ 
+## testing
 
+to test if transmission is successfully conecting through the vpn, visit [ip magnet](http://ipmagnet.services.cbcdn.com/)
 
 # OpenVPN and Transmission with WebUI
 
